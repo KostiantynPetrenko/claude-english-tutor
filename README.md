@@ -50,6 +50,8 @@ With Google Drive, all of this sits in one folder named English Tutor. The tutor
 
 Connect Drive in Claude settings, in the connectors section. Connect Google Docs there as well, so the tutor can edit the files in place instead of recreating them. Doing it once on claude.ai is enough; it then works in the phone app too.
 
+A connected connector also has to be turned on in the chat itself. In the first chat of the project, check that Google Drive and Google Docs are on in that chat's connector settings. If the tutor says it cannot see Drive, this is usually why.
+
 The tutor keeps records only in files you can open and read, never hidden in its memory. After every save it reads the file back, checks that the entry is there and gives you a link.
 
 Without Drive, the tutor asks you to upload english-student-card.md and english-lesson-log.md from this repository to the project. It cannot write to project files, so after each lesson it gives you an updated file to upload in place of the old one.
@@ -101,6 +103,7 @@ Start a new chat in the same project for every lesson. The tutor reads your card
 
 - The tutor behaves like regular Claude and does not ask the questionnaire. Check that the chat is inside the project and the prompt is in the project instructions.
 - Lessons did not appear in the calendar. Check that the Claude app has access to your phone's calendar or that Google Calendar is connected, then ask the tutor to add the schedule again.
+- The tutor says Drive is not connected although you connected it. Turn Google Drive and Google Docs on in that chat's connector settings.
 - No homework link. Check that Google Drive is connected and ask the tutor to save the homework again, or ask for it as text in the chat.
 - Too much English to follow. Say so, and it switches back to your native language.
 
