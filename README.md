@@ -79,7 +79,7 @@ The tutor asks about your goal, timeline, schedule and the kind of English you n
 
 The first lesson is always a diagnostic, about thirty to forty minutes. During it the tutor explains nothing and gives no correct answers; it only records. The review comes at the end.
 
-Grammar is checked on screen: a task with four options appears as text, and you say the letter out loud.
+Grammar is checked in text. In voice mode the app reads aloud everything the tutor writes, including the answer options, and that cannot be turned off. So for the grammar block the tutor asks you to switch voice off: a task with four options appears as text and you type the letter. After the block you switch voice back on.
 
 Hold the diagnostic and all lessons by voice on your phone.
 
